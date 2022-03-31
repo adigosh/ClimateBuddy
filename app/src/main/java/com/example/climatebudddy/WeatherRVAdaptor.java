@@ -10,8 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
-
 public class WeatherRVAdaptor extends RecyclerView.Adapter<WeatherRVAdaptor.ViewHolder> {
+
 
     private Context context;
     private ArrayList<WeatherRVModel> weatherRVModelArrayList;
@@ -31,7 +31,6 @@ public class WeatherRVAdaptor extends RecyclerView.Adapter<WeatherRVAdaptor.View
 
     @Override
     public void onBindViewHolder(@NonNull WeatherRVAdaptor.ViewHolder holder, int position) {
-
 
     }
 
